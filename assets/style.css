@@ -1,0 +1,48 @@
+.hideDiv {
+    display: none;
+}
+.showTable {
+    margin: 0 auto;
+}
+#articleTable {
+    text-align: left;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+#articleTable th {
+    text-align: center;
+    width: 20%;
+}
+.container-fluid {
+    width: 85%;
+}
+.main {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    width: 90%;
+}
+#welcome {
+    max-width: 100%;
+    height: auto;
+}
+.atcList{
+    cursor: pointer;
+}
+.article {
+    text-align: left;
+    font-size: 17px;
+}
+a {
+    text-decoration: none;
+}
+.inputs {
+    width: 100%;
+}
+.name {
+    color: #3f9b70;
+    margin-right: 10px;
+}
+.wideInput {
+    width: 250px;
+}
