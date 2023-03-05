@@ -15,7 +15,7 @@ if(isset($_GET['id'])) {
     $description = $row['description'];
     $img = "";
     $table = '<table class="table table-light table-hover showTable"><tr><th>No.</th><th>제목</th><th>게시자</th><th>날짜</th></tr>';
-    $sql = "SELECT * FROM boardpost LEFT JOIN information ON posted = idx WHERE board={$_GET['id']} ORDER BY created DESC";
+    $sql = "SELECT * FROM boardpost LEFT JOIN information ON posted = idx WHERE board={$_GET['id']} ORDER BY boardpost.id DESC";
     if(isset($_GET['pgNum'])) {
         if($_GET['pgNum'] === '1') {
             $sql .= " LIMIT 7";
