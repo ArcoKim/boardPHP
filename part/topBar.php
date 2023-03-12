@@ -1,11 +1,10 @@
 <?php
+session_start();
 $conn = require("mysql.php");
 $topButtonForm = "<button class='btn btn-outline-primary' onclick=\"location.href='/info/login.php'\">로그인</button>
 <button class='btn btn-outline-primary' onclick=\"location.href='/info/registration.php'\">회원가입</button>";
 if(isset($_SESSION['isLogin'])) {
     $topButtonForm = "<a class='name' href='/info/mypage.php'>".$_SESSION['nickname']."</a><button class='btn btn-outline-primary' onclick=\"location.href='/info/logout.php'\">로그아웃</button>";
-} else {
-    $possibleWrite = "";
 }
 $sql = "SELECT * FROM boardlist";
 $result = mysqli_query($conn, $sql);
