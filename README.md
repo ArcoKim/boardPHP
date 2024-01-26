@@ -1,6 +1,6 @@
 # 게시판
 ## 정보
-- URL : https://port-9000-boardphp-nx562oleuz9trn.sel3.cloudtype.app/
+- URL : ~~https://port-9000-boardphp-nx562oleuz9trn.sel3.cloudtype.app/~~
 - 완성 날짜 : 2021년
 - 제작자 : ArcoKim (kimjeongtae)
 
